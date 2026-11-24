@@ -1,0 +1,19 @@
+{
+  "document": "Land-rights and consent record (DEMO DATA)",
+  "farm": 1,
+  "farmer": "Amina (demo farmer)",
+  "region": "Musanze, Rwanda",
+  "gridCell": "geohash:kxt8f",
+  "areaHectares": 2.5,
+  "landRights": "customary use rights confirmed by village land committee (demo)",
+  "boundary": "walked with the farmer and a neighbour; polygon stored off-chain by the programme",
+  "consent": {
+    "freePriorInformed": true,
+    "explainedInLanguage": "Kinyarwanda",
+    "benefitSharing": "80% of every sale to the farmer, 20% to the programme fund",
+    "buffer": "10% of each issuance held in the permanence buffer pool",
+    "canLeave": "farmer may leave the programme at any time"
+  },
+  "signedOn": "2026-06-30",
+  "fieldAgent": "Verdana field agent (registers the farm on-chain)"
+}

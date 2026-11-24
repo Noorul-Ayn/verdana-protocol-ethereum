@@ -1,0 +1,24 @@
+{
+  "name": "verdana-dapp",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Verdana Protocol dApp: climate-finance access and coordination for smallholder farmers (farms, MRV reports, two-verifier approval, committed funding, open market, retirements).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy:pages": "vite build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.3.0",
+    "gh-pages": "^6.3.0",
+    "vite": "^8.3.8"
+  }
+}

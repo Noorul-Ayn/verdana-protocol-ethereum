@@ -1,0 +1,29 @@
+{
+  "name": "verdana-protocol-ethereum",
+  "version": "1.0.0",
+  "description": "Verdana Protocol on Ethereum: verified carbon credits for smallholder farmers, with two-verifier approval, a carbon credit token and a marketplace that pays farmers directly.",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "demo:local": "hardhat run scripts/interact.js --network localhost",
+    "demo:sepolia": "hardhat run scripts/interact.js --network sepolia",
+    "frontend:install": "npm --prefix frontend install",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "status:sepolia": "hardhat run scripts/status.js --network sepolia",
+    "personas:sepolia": "hardhat run scripts/show-personas.js --network sepolia",
+    "deploy:pages": "npm --prefix frontend run deploy:pages"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+    "hardhat": "^2.29.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  }
+}

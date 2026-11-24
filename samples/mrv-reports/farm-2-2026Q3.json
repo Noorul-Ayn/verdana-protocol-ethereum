@@ -1,0 +1,36 @@
+{
+  "document": "Verdana MRV report (DEMO DATA - not a real carbon project)",
+  "farm": 2,
+  "region": "Huye, Rwanda",
+  "gridCell": "geohash:kxmuq",
+  "areaHectares": 1.8,
+  "period": "2026-Q3",
+  "methodology": "VDN-AGF-01 Agroforestry biomass growth (demo methodology)",
+  "remoteSensing": {
+    "source": "Sentinel-2 L2A",
+    "scenes": [
+      "2026-07-09",
+      "2026-08-18",
+      "2026-09-22"
+    ],
+    "ndviMean": 0.66,
+    "use": "canopy cover and change detection"
+  },
+  "fieldMeasurements": {
+    "plots": 2,
+    "measured": "tree diameter at breast height (DBH) and height, per plot",
+    "allometricModel": "regional agroforestry allometric equation"
+  },
+  "calculation": {
+    "grossRemovalsKgCO2e": 7200,
+    "baselineKgCO2e": 1200,
+    "additionalKgCO2e": 6000,
+    "leakageDeductionPct": 10,
+    "netVerifiedKgCO2e": 5400,
+    "permanenceBufferPct": 10,
+    "bufferKgCO2e": 540,
+    "farmerCreditsKgCO2e": 4860
+  },
+  "preparedBy": "Verifier A (submits on-chain)",
+  "reviewedBy": "Verifier B (approves on-chain)"
+}

@@ -1,0 +1,60 @@
+{
+  "31337": {
+    "network": "localhost",
+    "chainId": 31337,
+    "deployedAt": "2026-11-15T20:24:57.876Z",
+    "deployBlock": 1,
+    "contracts": {
+      "VerdanaCarbonCredit": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "VerdanaRegistry": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "VerdanaMarketplace": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+    },
+    "accounts": {
+      "admin": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "programmeFund": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "verifierA": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "verifierB": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "amina": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "jean": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "buyer": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65"
+    },
+    "maxKgPerHectarePerQuarter": 5000,
+    "bufferBps": 1000,
+    "farmerShareBps": 8000,
+    "methodology": {
+      "id": "0x3fe6999e34a4528ad1c485d80e23ec1dfd3d50a072ef887ef80f7b2e0ac4e1fe",
+      "code": "VDN-AGF-01",
+      "name": "VDN-AGF-01 Agroforestry biomass growth (demo methodology)",
+      "leakageBps": 1000
+    }
+  },
+  "11155111": {
+    "network": "sepolia",
+    "chainId": 11155111,
+    "deployedAt": "2026-11-24T14:21:01.788Z",
+    "deployBlock": 12203115,
+    "contracts": {
+      "VerdanaCarbonCredit": "0xecA1067952822b1291770B41eDcBb91D01277a94",
+      "VerdanaRegistry": "0x322FEDB45a70b3b298C8352336e54512FC3CEA50",
+      "VerdanaMarketplace": "0x47ea54BB4447Eb8e1eF7FdD4DE64040a2418b2AF"
+    },
+    "accounts": {
+      "admin": "0xf142fc07c9304DcECB019afDC9249683402E430E",
+      "programmeFund": "0xf142fc07c9304DcECB019afDC9249683402E430E",
+      "verifierA": "0xf142fc07c9304DcECB019afDC9249683402E430E",
+      "verifierB": "0xFC9394d8f2c712F8441Eb4Bb9f661Bf401BaA0cB",
+      "amina": "0x4F2eCFE283Cf23D7Ed7ef9bbB3bFB5E5c123092D",
+      "jean": "0xA2be8Cfc8D99596C35541F44B5429460f9f2Ed88",
+      "buyer": "0x19982CBe9e6B42Fc6Aa69DeC9A77d9eDb7D3Baf1"
+    },
+    "maxKgPerHectarePerQuarter": 5000,
+    "bufferBps": 1000,
+    "farmerShareBps": 8000,
+    "methodology": {
+      "id": "0x3fe6999e34a4528ad1c485d80e23ec1dfd3d50a072ef887ef80f7b2e0ac4e1fe",
+      "code": "VDN-AGF-01",
+      "name": "VDN-AGF-01 Agroforestry biomass growth (demo methodology)",
+      "leakageBps": 1000
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "document": "Verdana MRV report (DEMO DATA - not a real carbon project)",
+  "farm": 1,
+  "region": "Musanze, Rwanda",
+  "gridCell": "geohash:kxt8f",
+  "areaHectares": 2.5,
+  "period": "2026-Q3",
+  "methodology": "VDN-AGF-01 Agroforestry biomass growth (demo methodology)",
+  "remoteSensing": {
+    "source": "Sentinel-2 L2A",
+    "scenes": [
+      "2026-07-14",
+      "2026-08-23",
+      "2026-09-17"
+    ],
+    "ndviMean": 0.71,
+    "use": "canopy cover and change detection"
+  },
+  "fieldMeasurements": {
+    "plots": 3,
+    "measured": "tree diameter at breast height (DBH) and height, per plot",
+    "allometricModel": "regional agroforestry allometric equation"
+  },
+  "calculation": {
+    "grossRemovalsKgCO2e": 11250,
+    "baselineKgCO2e": 1250,
+    "additionalKgCO2e": 10000,
+    "leakageDeductionPct": 10,
+    "netVerifiedKgCO2e": 9000,
+    "permanenceBufferPct": 10,
+    "bufferKgCO2e": 900,
+    "farmerCreditsKgCO2e": 8100
+  },
+  "preparedBy": "Verifier A (submits on-chain)",
+  "reviewedBy": "Verifier B (approves on-chain)"
+}
